@@ -1,0 +1,546 @@
+.group-child {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+  }
+  .hi-aderinsola {
+    position: absolute;
+    top: 6px;
+    left: 48px;
+    line-height: 28px;
+  }
+  .group-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #fff3df;
+  }
+  .image-icon {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 15.63%;
+    right: 6.25%;
+    bottom: 9.38%;
+    left: 18.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .ellipse-parent {
+    position: absolute;
+    height: 100%;
+    width: 12.23%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 87.77%;
+  }
+  .group-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 327px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "PT Serif";
+  }
+  .food-delivery-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #f6fffa;
+    border: 1px solid #6ece8a;
+    box-sizing: border-box;
+    width: 327px;
+    height: 192px;
+  }
+  .main-item,
+  .main-item1 {
+    position: absolute;
+    left: 0;
+    line-height: 20px;
+    display: inline-block;
+    width: 207px;
+  }
+  .main-item {
+    top: 24px;
+    font-weight: 500;
+  }
+  .main-item1 {
+    top: 0;
+    color: #4b6358;
+  }
+  .main-item-parent {
+    position: absolute;
+    top: 14px;
+    left: 88px;
+    width: 207px;
+    height: 44px;
+  }
+  .food-image-icon {
+    position: absolute;
+    top: calc(50% - 36px);
+    left: 0;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+  }
+  .group-container {
+    position: absolute;
+    top: 64px;
+    left: 16px;
+    width: 295px;
+    height: 72px;
+  }
+  .food-delivery-item {
+    position: absolute;
+    height: 12.5%;
+    width: 7.34%;
+    top: 8.33%;
+    right: 4.89%;
+    bottom: 79.17%;
+    left: 87.77%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .food-delivery1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .image-3-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .food-delivery-parent {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    color: #03a84e;
+  }
+  .food-delivery-inner {
+    position: absolute;
+    top: 151.5px;
+    left: 15.5px;
+    border-top: 1px solid rgba(189, 238, 205, 0.5);
+    box-sizing: border-box;
+    width: 296px;
+    height: 1px;
+  }
+  .am-1130 {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    line-height: 16px;
+  }
+  .streamline-icon-time-clock-cir {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .am-1130-am-parent {
+    position: absolute;
+    top: 164px;
+    left: 16px;
+    width: 143px;
+    height: 16px;
+    font-size: 12px;
+    color: #1d352a;
+  }
+  .food-delivery {
+    position: absolute;
+    top: 188px;
+    left: 24px;
+    width: 327px;
+    height: 192px;
+  }
+  .tab-bar,
+  .tab-navigation-rectangle-child {
+    position: absolute;
+    height: 59.04%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 40.96%;
+    left: 0;
+    background-color: #f5e5f0;
+  }
+  .tab-navigation-rectangle-child {
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 0#f1f4f2 inset;
+  }
+  .home-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .home1 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .home {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 187.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #03a84e;
+  }
+  .history1 {
+    position: relative;
+    line-height: 16px;
+  }
+  .gardener,
+  .history,
+  .notifications {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 93.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .gardener,
+  .notifications {
+    left: calc(50% + 0.5px);
+  }
+  .gardener {
+    left: calc(50% + 94.5px);
+  }
+  .tab-navigation-rectangle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .navigation-tab {
+    position: absolute;
+    top: 729px;
+    left: 0;
+    width: 375px;
+    height: 83px;
+    text-align: center;
+    font-size: 12px;
+    color: #8aa398;
+  }
+  .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(63, 80, 73, 0.04);
+  }
+  .tab-11 {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 60px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .tab-1 {
+    height: 80%;
+    width: 48.01%;
+    top: 10%;
+    right: 50.76%;
+    bottom: 10%;
+    left: 1.22%;
+  }
+  .tab-1,
+  .tab-2,
+  .tab-21 {
+    position: absolute;
+  }
+  .tab-21 {
+    top: calc(50% - 10px);
+    left: 0;
+    line-height: 20px;
+  }
+  .tab-2 {
+    width: calc(100% - 262px);
+    top: calc(50% - 9.78px);
+    right: 49px;
+    left: 213px;
+    height: 20px;
+    color: #4b6358;
+  }
+  .tab-segments {
+    position: absolute;
+    top: 124px;
+    left: 24px;
+    border-radius: 8px;
+    background-color: #f0f4f2;
+    width: 327px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .child,
+  .modelight-typedefault-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+  }
+  .child {
+    background: rgba(15, 36, 27, 0.2);
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    top: 0;
+
+  }
+  .modelight-typedefault-icon {
+    height: 44px;
+    overflow: hidden;
+  }
+  .home-indicator {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 66.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 134px;
+    height: 5px;
+  }
+  .modelight {
+    position: absolute;
+    top: 778px;
+    left: 0;
+    width: 375px;
+    height: 34px;
+  }
+  .order-status-modal-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -589px;
+    bottom: 0;
+
+    border-radius: 16px;
+    background-color: #fff;
+  }
+  .tick-check-icon {
+    position: absolute;
+    top: 108px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .order-on-the {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0f241b;
+  }
+  .am {
+    position: absolute;
+    top: 4px;
+    left: 232px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+  }
+  .div1,
+  .your-order-has {
+    position: absolute;
+    width: 279px;
+  }
+  .your-order-has {
+    top: 28px;
+    left: 0;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .div1 {
+    top: 108px;
+    left: 36px;
+    height: 68px;
+  }
+  .am1,
+  .status-child {
+    position: absolute;
+    top: 4px;
+  }
+  .status-child {
+    left: 6px;
+    width: 16px;
+    height: 16px;
+  }
+  .am1 {
+    left: 226px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+  }
+  .div2,
+  .status-item {
+    position: absolute;
+    top: 0;
+    left: 36px;
+    width: 279px;
+    height: 68px;
+  }
+  .status-item {
+    top: 23.5px;
+    left: 13.5px;
+    border-right: 1px dashed #6ece8a;
+    box-sizing: border-box;
+    width: 1px;
+    height: 81px;
+  }
+  .mon-08-sep,
+  .status {
+    position: absolute;
+    left: 20px;
+  }
+  .status {
+    top: 246px;
+    width: 315px;
+    height: 176px;
+    font-size: 16px;
+  }
+  .mon-08-sep {
+    top: 26px;
+    line-height: 16px;
+  }
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+  }
+  .no-6b-radiators {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f241b;
+    display: flex;
+    align-items: center;
+    width: 291px;
+  }
+  .delivery-address {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px dashed #cbd8d2;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .image-3-icon1 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .order-has-arrived1,
+  .order-status1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 16px;
+  }
+  .order-has-arrived1 {
+    top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0f241b;
+  }
+  .order-status,
+  .order-status-parent {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 129px;
+    height: 42px;
+  }
+  .order-status {
+    top: 66px;
+    left: 20px;
+    width: 169px;
+  }
+  .order-status-modal {
+    position: absolute;
+    top: 188px;
+    right: 480px;
+    width: 355px;
+    height: 570px;
+    font-size: 12px;
+    color: #4b6358;
+  }
+    .div {
+      position: absolute;
+      top: 5%;
+      left: 40%;
+      margin: -25px 0 0 -25px;
+      background-color: #fff;
+      width: 100%;
+      height: 812px;
+      overflow: hidden;
+      align-items: center;
+      text-align: left;
+      font-size: 14px;
+      color: #0f241b;
+      font-family: "Cerebri Sans";
+    }
+  

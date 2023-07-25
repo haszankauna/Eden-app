@@ -1,0 +1,548 @@
+.modelight-typedefault-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 44px;
+    overflow: hidden;
+  }
+  .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(63, 80, 73, 0.04);
+  }
+  .tab-11 {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 60px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .tab-1 {
+    height: 80%;
+    width: 48.01%;
+    top: 10%;
+    right: 50.76%;
+    bottom: 10%;
+    left: 1.22%;
+  }
+  .tab-1,
+  .tab-2,
+  .tab-21 {
+    position: absolute;
+  }
+  .tab-21 {
+    top: calc(50% - 10px);
+    right: 5px;
+    line-height: 20px;
+  }
+  .tab-2 {
+    width: calc(100% - 262px);
+    top: calc(50% - 9.78px);
+    right: 49px;
+    left: 213px;
+    height: 20px;
+    color: #4b6358;
+  }
+  .tab-segments {
+    position: absolute;
+    top: 124px;
+    left: 24px;
+    border-radius: 8px;
+    background-color: #f0f4f2;
+    width: 500px;
+    height: 40px;
+    overflow: hidden;
+  }
+  .group-child {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+  }
+  .hi-aderinsola {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 28px;
+  }
+  .group-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #fff3df;
+  }
+  .image-icon {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 15.63%;
+    right: 6.25%;
+    bottom: 9.38%;
+    left: 18.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .ellipse-parent {
+    position: absolute;
+    height: 100%;
+    width: 12.23%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 87.77%;
+  }
+  .group-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 500px;
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "PT Serif";
+  }
+  .pick-meals-child {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #03a84e;
+    height: 106px;
+  }
+  .tap-here-to {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .image-3-icon {
+    position: absolute;
+    top: 59px;
+    right: 2px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .do-you-have {
+    position: absolute;
+    top: 44px;
+    left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 265px;
+  }
+  .pick-meals {
+    position: relative;
+    border-radius: 8px;
+    border: 4px solid #98dcaf;
+    box-sizing: border-box;
+    width: 500px;
+    height: 114px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .log-laundry-items-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #e558a3;
+    width: 327px;
+    height: 106px;
+  }
+  .image-3-icon1,
+  .image-30-icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .image-30-icon {
+    top: 62px;
+    left: 259px;
+    width: 64px;
+    height: 64px;
+    display: none;
+  }
+  .image-3-icon1 {
+    top: 59px;
+    left: 274px;
+    width: 53px;
+    height: 53px;
+  }
+  .arrow-icon {
+    position: absolute;
+    top: 41px;
+    left: 287px;
+    width: 24px;
+    height: 24px;
+  }
+  .log-laundry-items {
+    position: relative;
+    border-radius: 8px;
+    border: 4px solid #f4b7d8;
+    box-sizing: border-box;
+    width: 335px;
+    height: 114px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .pick-meals-parent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: 0;
+    right:0;
+    width: 100%;
+    gap: 24px;
+  }
+  .food-delivery-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #f6fffa;
+    border: 1px solid #6ece8a;
+    box-sizing: border-box;
+  }
+  .main-item {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .arrow-icon1 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  .main-item-parent {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 100px;
+    background-color: #e9fbf2;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .main-item1,
+  .main-item2 {
+    position: absolute;
+    left: 0;
+    line-height: 20px;
+    display: inline-block;
+    width: 207px;
+  }
+  .main-item1 {
+    top: 24px;
+    font-weight: 500;
+  }
+  .main-item2 {
+    top: 0;
+    color: #4b6358;
+  }
+  .main-item-group {
+    position: absolute;
+    top: 14px;
+    left: 88px;
+    width: 207px;
+    height: 44px;
+  }
+  .food-image-icon {
+    position: absolute;
+    top: calc(50% - 36px);
+    left: 0;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+  }
+  .group-container {
+    position: absolute;
+    top: 64px;
+    left: 16px;
+    width: 295px;
+    height: 72px;
+    font-size: 14px;
+    color: #0f241b;
+  }
+  .food-delivery-group {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 16px;
+  }
+  .food-delivery-item {
+    position: absolute;
+    width: calc(100% - 31px);
+    right: 15.5px;
+    bottom: 39.5px;
+    left: 15.5px;
+    border-top: 1px solid rgba(189, 238, 205, 0.5);
+    box-sizing: border-box;
+    height: 1px;
+  }
+  .am-1130 {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    line-height: 16px;
+  }
+  .streamline-icon-time-clock-cir {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .am-1130-am-parent {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    width: 143px;
+    height: 16px;
+    color: #1d352a;
+  }
+  .food-delivery {
+    position: relative;
+    width: 500px;
+    height: 192px;
+  }
+  .house-cleaning-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #fffbf5;
+    border: 1px solid #ffc260;
+    box-sizing: border-box;
+    width: 500px;
+    height: 152px;
+  }
+  .main-item-container {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 100px;
+    background-color: #fff3df;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .get-ready-our {
+    position: absolute;
+    top: 56px;
+    left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    display: inline-block;
+    width: 295px;
+  }
+  .home-cleaning {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .image-4-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .house-cleaning-item {
+    position: absolute;
+    top: 111.5px;
+    left: 15.5px;
+    border-top: 1px solid rgba(255, 218, 159, 0.5);
+    box-sizing: border-box;
+    width: 296px;
+    height: 1px;
+  }
+  .am-11301 {
+    position: absolute;
+    top: 124px;
+    left: 40px;
+    line-height: 16px;
+    color: #1d352a;
+  }
+  .streamline-icon-time-clock-cir1 {
+    position: absolute;
+    top: 124px;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .house-cleaning {
+    position: relative;
+    width: 500px;
+    height: 152px;
+    color: #ff9d00;
+  }
+  .food-delivery-parent,
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 12px;
+    color: #03a84e;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 188px;
+    left: 24px;
+    width: 500px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+  }
+  .tab-bar,
+  .tab-navigation-rectangle-child {
+    position: absolute;
+    height: 59.04%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 40.96%;
+    left: 0;
+    background-color: #f5e5f0;
+  }
+  .tab-navigation-rectangle-child {
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 0#f1f4f2 inset;
+  }
+  .home-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+  }
+  .home {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 187.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #03a84e;
+  }
+  .history {
+    position: relative;
+    line-height: 16px;
+  }
+  .notifications,
+  .tab-22,
+  .tab-4 {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 93.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .notifications,
+  .tab-4 {
+    left: calc(50% + 0.5px);
+  }
+  .tab-4 {
+    left: calc(50% + 94.5px);
+  }
+  .tab-navigation-rectangle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .home-indicator {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 66.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 134px;
+    height: 5px;
+  }
+  .home-indicatorblack {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 34px;
+  }
+  .navigation-tab {
+    position: absolute;
+    top: 729px;
+    left: 0;
+    width: 500px;
+    height: 83px;
+    font-size: 12px;
+    color: #8aa398;
+  }
+  .div {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #0f241b;
+    font-family: "Cerebri Sans";
+  }
+  

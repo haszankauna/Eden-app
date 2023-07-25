@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input,
+button {
+  border: none;
+  background-color: unset;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/montserrat-v25-latin-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserratbold";
+  src: url("fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font1 {
+  font-family: "Montserrat" !important;
+}
+
+:root {
+  /* fonts */
+  --cerebri-sans-body-regular-14: "Cerebri Sans";
+  --pt-serif-heading-20: "PT Serif";
+
+  /* font sizes */
+  --cerebri-sans-body-regular-14-size: 14px;
+  --cerebri-sans-body-regular-16-size: 16px;
+  --cerebri-sans-body-regular-12-size: 12px;
+  --pt-serif-heading-20-size: 20px;
+
+  /* Colors */
+  --white: #fff;
+  --greys-octonary: #f9fbfa;
+  --greys-primary: #0f241b;
+  --greys-quinary: #cbd8d2;
+  --greys-tertiary: #4b6358;
+  --greys-secondary: #1d352a;
+  --green-primary: #03a84e;
+  --greys-senary: #e2e9e6;
+  --yellow-octonary: #fffdf5;
+  --yellow-quinary: #ffebb2;
+  --green-septenary: #e9fbf2;
+  --pink-septenary: #fbe7f2;
+  --orange-septenary: #fff3df;
+  --purple-septenary: #e5e9fc;
+  --color-black: #000;
+  --green-secondary: #14b757;
+
+  /* Gaps */
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-13xl: 32px;
+  --br-base: 16px;
+  --br-5xl: 24px;
+
+  /* fonts */
+  /* font-sizes variable */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2.5rem;
+  --fs-580: 2.3rem;
+  --fs-570: 2rem;
+  --fs-550: 1.6rem;
+  --fs-500: 1.55rem;
+  --fs-450: 1.25rem;
+  --fs-400: 1.2rem;
+  --fs-350: 1.1rem;
+  --fs-300: 1rem;
+  --fs-250: 0.9rem;
+  --fs-200: 0.875rem;
+  --fs-190: 0.8rem;
+  --fs-170: 0.75rem;
+  --fs-150: 0.68rem;
+  --fs-130: 0.62rem;
+  --fs-100: 0.5rem;
+
+  /* width variable */
+  --w-2: 2%;
+  --w-3: 4%;
+  --w-5: 5%;
+  --w-7: 7%;
+  --w-9: 9%;
+  --w-10: 10%;
+  --w-13: 13%;
+  --w-15: 15%;
+  --w-20: 20%;
+  --w-25: 25%;
+  --w-30: 30%;
+  --w-35: 35%;
+  --w-40: 40%;
+  --w-45: 45%;
+  --w-49: 49%;
+  --w-50: 50%;
+  --w-55: 55%;
+  --w-60: 60%;
+  --w-65: 65%;
+  --w-67: 67%;
+  --w-70: 70%;
+  --w-73: 73.6%;
+  --w-75: 75%;
+  --w-77: 77%;
+  --w-80: 80%;
+  --w-82: 82%;
+  --w-85: 85%;
+  --w-87: 87%;
+  --w-90: 90%;
+  --w-93: 93%;
+  --w-95: 95%;
+  --w-98: 98%;
+  --w-100: 100%;
+  --w-105: 105%;
+  --w-110: 110%;
+  --w-160: 160%;
+  --w-200: 200%;
+}
+
+.white {
+  color: var(--white);
+}
+
+.bg-yellow {
+  background-color: var(--yellow-octonary);
+}
+
+.lightgreen {
+  color: var(--green-septenary);
+}
+.bg-lightgreen {
+  background-color: var(--green-septenary);
+}
+.bg-green {
+  background-color: var(--green-primary);
+}
+.green {
+  color: var(--green-primary);
+}
+.grey {
+  color: var(--greys-tertiary);
+}
+.bg-grey {
+  background-color: var(--greys-tertiary);
+}
+.purple {
+  color: var(--greys-tertiary);
+}
+.bg-lightpurple {
+  background-color: var(--purple-septenary);
+}
+.lightorange {
+  color: var(--orange-septenary);
+}
+.bg-lightorange {
+  background-color: var(--orange-septenary);
+}
+.lightpink {
+  color: var(--pink-septenary);
+}
+.bg-lightpink {
+  background-color: var(--pink-septenary);
+}
+.bg-lightgrey {
+  background-color: var(--greys-octonary);
+}
+
+/* font - size */
+.fs-100 {
+  font-size: var(--fs-100) !important;
+}
+.fs-130 {
+  font-size: var(--fs-130) !important;
+}
+.fs-150 {
+  font-size: var(--fs-150) !important;
+}
+.fs-170 {
+  font-size: var(--fs-170) !important;
+}
+.fs-190 {
+  font-size: var(--fs-190) !important;
+}
+.fs-200 {
+  font-size: var(--fs-200) !important;
+}
+.fs-250 {
+  font-size: var(--fs-250) !important;
+}
+.fs-300 {
+  font-size: var(--fs-300) !important;
+}
+.fs-350 {
+  font-size: var(--fs-350) !important;
+}
+.fs-400 {
+  font-size: var(--fs-400) !important;
+}
+.fs-450 {
+  font-size: var(--fs-450) !important;
+}
+.fs-500 {
+  font-size: var(--fs-500) !important;
+}
+.fs-550 {
+  font-size: var(--fs-550) !important;
+}
+.fs-570 {
+  font-size: var(--fs-570) !important;
+}
+.fs-580 {
+  font-size: var(--fs-580) !important;
+}
+.fs-600 {
+  font-size: var(--fs-600) !important;
+}
+.fs-700 {
+  font-size: var(--fs-700) !important;
+}
+.fs-800 {
+  font-size: var(--fs-800) !important;
+}
+.fs-900 {
+  font-size: var(--fs-900) !important;
+}
+
+/*  width-class */
+.w-2 {
+  width: var(--w-2);
+}
+.w-3 {
+  width: var(--w-3);
+}
+.w-5 {
+  width: var(--w-5);
+}
+.w-7 {
+  width: var(--w-7);
+}
+.w-9 {
+  width: var(--w-9);
+}
+.w-10 {
+  width: var(--w-10);
+}
+.w-13 {
+  width: var(--w-13);
+}
+.w-15 {
+  width: var(--w-15);
+}
+.w-20 {
+  width: var(--w-20);
+}
+.w-25 {
+  width: var(--w-25);
+}
+.w-30 {
+  width: var(--w-30);
+}
+.w-35 {
+  width: var(--w-35);
+}
+.w-40 {
+  width: var(--w-40);
+}
+.w-45 {
+  width: var(--w-45);
+}
+.w-49 {
+  width: var(--w-49);
+}
+.w-50 {
+  width: var(--w-50);
+}
+.w-55 {
+  width: var(--w-55);
+}
+.w-60 {
+  width: var(--w-60);
+}
+.w-65 {
+  width: var(--w-65);
+}
+.w-67 {
+  width: var(--w-67);
+}
+.w-70 {
+  width: var(--w-70);
+}
+.w-73 {
+  width: var(--w-73);
+}
+.w-75 {
+  width: var(--w-75);
+}
+.w-77 {
+  width: var(--w-77);
+}
+.w-80 {
+  width: var(--w-80);
+}
+.w-82 {
+  width: var(--w-82);
+}
+.w-85 {
+  width: var(--w-85);
+}
+.w-87 {
+  width: var(--w-87);
+}
+.w-90 {
+  width: var(--w-90);
+}
+.w-93 {
+  width: var(--w-93);
+}
+.w-95 {
+  width: var(--w-95);
+}
+.w-98 {
+  width: var(--w-98);
+}
+.w-100 {
+  width: var(--w-100);
+}
+.w-105 {
+  width: var(--w-105);
+}
+.w-110 {
+  width: var(--w-110);
+}
+.w-160 {
+  width: var(--w-160);
+}
+.w-200 {
+  width: var(--w-200);
+}
+
+/* light font weight */
+.font-medium-bold {
+  font-weight: 600 !important;
+}

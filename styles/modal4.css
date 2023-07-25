@@ -1,0 +1,590 @@
+.group-child {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+  }
+  .hi-aderinsola {
+    position: absolute;
+    top: 6px;
+    left: 48px;
+    line-height: 28px;
+  }
+  .group-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #fff3df;
+  }
+  .image-icon {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 15.63%;
+    right: 6.25%;
+    bottom: 9.38%;
+    left: 18.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .ellipse-parent {
+    position: absolute;
+    height: 100%;
+    width: 12.23%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 87.77%;
+  }
+  .group-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 327px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "PT Serif";
+  }
+  .house-cleaning-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #fffbf5;
+    border: 1px solid #ffc260;
+    box-sizing: border-box;
+    width: 327px;
+    height: 152px;
+  }
+  .your-cleaner-is {
+    position: absolute;
+    top: 56px;
+    left: 16px;
+    line-height: 20px;
+    display: inline-block;
+    width: 295px;
+  }
+  .house-cleaning-item {
+    position: absolute;
+    height: 15.79%;
+    width: 7.34%;
+    top: 10.53%;
+    right: 4.89%;
+    bottom: 73.68%;
+    left: 87.77%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .house-cleaning1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .image-4-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .house-cleaning-parent {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    color: #ff9d00;
+  }
+  .house-cleaning-inner {
+    position: absolute;
+    top: 111.5px;
+    left: 15.5px;
+    border-top: 1px solid rgba(255, 218, 159, 0.5);
+    box-sizing: border-box;
+    width: 296px;
+    height: 1px;
+  }
+  .am-1130 {
+    position: absolute;
+    top: 124px;
+    left: 40px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1d352a;
+  }
+  .streamline-icon-time-clock-cir {
+    position: absolute;
+    top: 124px;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .house-cleaning {
+    position: absolute;
+    top: 188px;
+    left: 24px;
+    width: 327px;
+    height: 152px;
+    color: #000;
+  }
+  .tab-bar,
+  .tab-navigation-rectangle-child {
+    position: absolute;
+    height: 59.04%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 40.96%;
+    left: 0;
+    background-color: #f5e5f0;
+  }
+  .tab-navigation-rectangle-child {
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 0#f1f4f2 inset;
+  }
+  .home-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .home1 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .home {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 187.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #03a84e;
+  }
+  .history {
+    position: relative;
+    line-height: 16px;
+  }
+  .notifications,
+  .tab-2,
+  .tab-4 {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 93.5px);
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 29px 1px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .notifications,
+  .tab-4 {
+    left: calc(50% + 0.5px);
+  }
+  .tab-4 {
+    left: calc(50% + 94.5px);
+  }
+  .tab-navigation-rectangle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .navigation-tab {
+    position: absolute;
+    top: 729px;
+    left: 0;
+    width: 375px;
+    height: 83px;
+    text-align: center;
+    font-size: 12px;
+    color: #8aa398;
+  }
+  .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(63, 80, 73, 0.04);
+  }
+  .tab-11 {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 60px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .tab-1 {
+    height: 80%;
+    width: 48.01%;
+    top: 10%;
+    right: 50.76%;
+    bottom: 10%;
+    left: 1.22%;
+  }
+  .tab-1,
+  .tab-21,
+  .tab-22 {
+    position: absolute;
+  }
+  .tab-22 {
+    top: calc(50% - 10px);
+    left: 0;
+    line-height: 20px;
+  }
+  .tab-21 {
+    width: calc(100% - 262px);
+    top: calc(50% - 9.78px);
+    right: 49px;
+    left: 213px;
+    height: 20px;
+    color: #4b6358;
+  }
+  .tab-segments {
+    position: absolute;
+    top: 124px;
+    left: 24px;
+    border-radius: 8px;
+    background-color: #f0f4f2;
+    width: 327px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .child,
+  .modelight-typedefault-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+  }
+  .child {
+    background-color: rgba(15, 36, 27, 0.2);
+    backdrop-filter: blur(2px);
+    height: 812px;
+    position: absolute;
+    top: 0;
+    
+  }
+  .modelight-typedefault-icon {
+    height: 44px;
+    overflow: hidden;
+  }
+  .home-indicator {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 66.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 134px;
+    height: 5px;
+  }
+  .modelight {
+    position: absolute;
+    top: 778px;
+    left: 0;
+    width: 375px;
+    height: 34px;
+  }
+  .order-status-modal-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+  .mon-08-sep {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    line-height: 16px;
+  }
+  .image-5-icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .cleaning-completed,
+  .order-status1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 16px;
+  }
+  .cleaning-completed {
+    top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0f241b;
+  }
+  .order-status,
+  .order-status-parent {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 152px;
+    height: 42px;
+  }
+  .order-status {
+    top: 66px;
+    left: 20px;
+    width: 192px;
+  }
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+  }
+  .no-6b-radiators {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f241b;
+    display: flex;
+    align-items: center;
+    width: 291px;
+  }
+  .delivery-address,
+  .delivery-address-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .delivery-address {
+    background-color: #fff;
+    border: 1px dashed #cbd8d2;
+    padding: 12px;
+    gap: 6px;
+  }
+  .delivery-address-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+  }
+  .cleaning-info {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+    border-radius: 8px;
+    border: 1px dashed #cbd8d2;
+    box-sizing: border-box;
+    width: 315px;
+    height: 152px;
+    overflow: hidden;
+  }
+  .tick-check-icon,
+  .tick-check-icon1,
+  .tick-check-icon2,
+  .tick-check-icon3 {
+    position: absolute;
+    top: 264px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .tick-check-icon1,
+  .tick-check-icon2,
+  .tick-check-icon3 {
+    top: 176px;
+  }
+  .tick-check-icon2,
+  .tick-check-icon3 {
+    top: 88px;
+  }
+  .tick-check-icon3 {
+    top: 0;
+  }
+  .cleaner-en-route {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0f241b;
+  }
+  .pm {
+    top: 4px;
+    left: 226px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+  }
+  .div1,
+  .pm,
+  .pm1 {
+    position: absolute;
+  }
+  .div1 {
+    top: 264px;
+    left: 36px;
+    width: 279px;
+    height: 48px;
+  }
+  .pm1 {
+    top: 4px;
+    left: 233px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+  }
+  .your-cleaner-has {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 279px;
+  }
+  .div2,
+  .status-child {
+    position: absolute;
+    top: 176px;
+    left: 36px;
+    width: 279px;
+    height: 48px;
+  }
+  .status-child {
+    top: 207.5px;
+    left: 13.5px;
+    border-right: 1px dashed #6ece8a;
+    box-sizing: border-box;
+    width: 1px;
+    height: 53px;
+  }
+  .div3 {
+    position: absolute;
+    top: 88px;
+    left: 36px;
+    width: 279px;
+    height: 48px;
+  }
+  .cleaning-completed1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .pm3 {
+    position: absolute;
+    top: 4px;
+    left: 233px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4b6358;
+    text-align: right;
+  }
+  .div4,
+  .give-feedback {
+    position: absolute;
+    width: 279px;
+  }
+  .give-feedback {
+    top: 28px;
+    left: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #03a84e;
+    display: inline-block;
+  }
+  .div4 {
+    top: 0;
+    left: 36px;
+    height: 48px;
+    color: #0f241b;
+  }
+  .status-inner,
+  .status-item {
+    position: absolute;
+    top: 119.5px;
+    left: 13.5px;
+    border-right: 1px dashed #6ece8a;
+    box-sizing: border-box;
+    width: 1px;
+    height: 53px;
+  }
+  .status-inner {
+    top: 31.5px;
+  }
+  .status {
+    position: absolute;
+    top: 312px;
+    left: 20px;
+    width: 315px;
+    height: 312px;
+    font-size: 16px;
+  }
+  .order-status-modal {
+    position: absolute;
+    top: 102px;
+    left: 10px;
+    width: 355px;
+    height: 656px;
+    font-size: 12px;
+    color: #4b6358;
+  }
+  .div {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    background-color: #fff;
+    width: 100%;
+    height: 812px;
+    overflow: hidden;
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    color: #0f241b;
+    font-family: "Cerebri Sans";
+  }
+  

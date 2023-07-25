@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cerebri Sans:wght@300;400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Serif:wght@700&display=swap"
+    />
+    <style>
+      @media (max-width: 768px) {
+        .grid-container {
+          display: block !important;
+          width: 80% !important;
+          /* margin: 0rem 0.5rem !important; */
+        }
+        .card-style {
+          margin: 0.5rem;
+        }
+      }
+      @media (max-width: 568px) {
+        .mobpadding {
+          padding: 0rem 0.5rem;
+        }
+        .mobwidth {
+          width: 100% !important;
+          padding: 0rem 1rem;
+        }
+        .grid-container {
+          display: block !important;
+          width: 100% !important;
+          /* margin: 0rem 0.5rem !important; */
+        }
+      }
+      /* input style */
+      .border-bottom {
+        border-bottom: 1px solid #03a84e;
+      }
+      .center-title {
+        text-align: center !important;
+      }
+      /* step styling */
+      .step-style {
+        background-color: rgb(182, 182, 182);
+        border-radius: 50%;
+        height: 5px;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.7rem;
+      }
+      .step-spacing {
+        padding: 0.55rem 0rem 0rem 0rem;
+      }
+      /* button style */
+      .button-style {
+        border-radius: 5rem;
+        padding: 1.2rem;
+      }
+
+      /* info badge style */
+      .info-style {
+        margin: 2rem;
+        border: 0.5px solid rgb(177, 177, 177);
+        border-radius: 0.6rem;
+        display: flex;
+        align-items: center;
+      }
+      .info-style2 {
+        margin: 2rem;
+        border: 0.5px solid #ffebb2;
+        border-radius: 0.6rem;
+        display: flex;
+        align-items: center;
+      }
+      /* remove code button */
+      .rmv-button-style {
+        border: 0.5px solid rgb(177, 177, 177);
+        border-radius: 0.6rem;
+        padding: 0.3rem;
+      }
+      /* plans grid system */
+      .center-grid {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0rem;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 10px;
+        /* justify-items: center !important; */
+      }
+      .card-style {
+        border-radius: 0.5rem !important;
+        filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+        padding: 1rem;
+        /* background-color: ; */
+      }
+      /* service-title-style */
+      .display-flex {
+        display: flex;
+        align-content: center !important;
+      }
+      .container-display-flex {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center !important; */
+      }
+      .service-padding {
+        padding: 0rem 0.5rem;
+      }
+      .price-spacing {
+        padding: 1rem 0rem 0rem 0rem;
+      }
+      /*  */
+    </style>
+  </head>
+  <body class="body font1">
+    <div style="margin-top: 5rem">
+      <!-- heading -->
+      <div class="center-title mobpadding">
+        <!-- title -->
+        <div style="padding-bottom: 1rem">
+          <h3>Review your plan</h3>
+        </div>
+        <!-- description -->
+        <div>
+          <span class="fs-250"
+            >Here's a summary of your Eden life. Let me tell you, your life is
+            about to become way easier.</span
+          >
+        </div>
+      </div>
+      <!-- step -->
+      <div class="center-grid">
+        <div
+          class="display-flex w-50 mobwidth fs-190 container-display-flex font-medium-bold"
+        >
+          <!-- check -->
+          <div>
+            <div>
+              <img
+                src="public/tickcheck.svg"
+                class=""
+                style="width: 20px"
+                alt=""
+              />
+            </div>
+            <div>
+              <span>sign-up</span>
+            </div>
+          </div>
+
+          <!-- customize -->
+          <div class="">
+            <div><span class="step-style">2</span></div>
+            <div class="step-spacing">
+              <span>customize</span>
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <span class="step-style">3</span>
+            </div>
+            <div class="step-spacing">
+              <span>Pay</span>
+            </div>
+          </div>
+          <div class=""><span class="step-style">4</span></div>
+        </div>
+      </div>
+      <!-- title-->
+      <div class="center-grid">
+        <div class="container-display-flex mobwidth fs-190 w-50">
+          <div class="font-medium-bold">
+            <span>Your Plan Details</span>
+          </div>
+          <!-- delete plan -->
+          <div class="display-flex">
+            <div>
+              <img src="public/plus.svg" style="width: 15px" />
+            </div>
+            <div>
+              <span>Add services</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- plans in categories -->
+      <div class="center-grid">
+        <div class="grid-container w-50">
+          <!-- laundry -->
+          <div class="card-style container-display-flex bg-lightpurple">
+            <div>
+              <div class="display-flex">
+                <div>
+                  <img
+                    class="image-2-icon"
+                    alt=""
+                    src="./public/image-2@2x.png"
+                  />
+                </div>
+                <div class="fs-200">
+                  <span class="service-padding">Laundry</span>
+                </div>
+              </div>
+              <div class="price-spacing fs-190"><span>₦27,000</span></div>
+            </div>
+            <div class="display-flex fs-190">
+              <div class=""><span>Expand details</span></div>
+              <div>
+                <img class="" alt="" src="./public/arrow.svg" />
+              </div>
+            </div>
+          </div>
+          <!-- cleaning -->
+          <div class="card-style container-display-flex bg-lightorange">
+            <div>
+              <div class="display-flex">
+                <div>
+                  <img
+                    class="image-2-icon"
+                    alt=""
+                    src="./public/image-2@2x.png"
+                  />
+                </div>
+                <div class="fs-200">
+                  <span class="service-padding">Cleaning</span>
+                </div>
+              </div>
+              <div class="price-spacing fs-190"><span>₦27,000</span></div>
+            </div>
+            <div class="display-flex fs-190">
+              <div class=""><span>Expand details</span></div>
+              <div>
+                <img class="" alt="" src="./public/arrow.svg" />
+              </div>
+            </div>
+          </div>
+          <!-- food-->
+          <div class="card-style container-display-flex bg-lightgreen">
+            <div>
+              <div class="display-flex">
+                <div>
+                  <img
+                    class="image-2-icon"
+                    alt=""
+                    src="./public/image-11@2x.png"
+                  />
+                </div>
+                <div class="fs-200">
+                  <span class="service-padding">Food</span>
+                </div>
+              </div>
+              <div class="price-spacing fs-190"><span>₦27,000</span></div>
+            </div>
+            <div class="display-flex fs-190">
+              <div class=""><span>Expand details</span></div>
+              <div>
+                <img class="" alt="" src="./public/arrow.svg" />
+              </div>
+            </div>
+          </div>
+          <!-- beauty -->
+          <div class="card-style container-display-flex bg-lightpink">
+            <div>
+              <div class="display-flex">
+                <div>
+                  <img
+                    class="image-2-icon"
+                    alt=""
+                    src="./public/image-2@2x.png"
+                  />
+                </div>
+                <div class="fs-200">
+                  <span class="service-padding">Laundry</span>
+                </div>
+              </div>
+              <div class="price-spacing fs-190"><span>₦27,000</span></div>
+            </div>
+            <div class="display-flex fs-190">
+              <div class=""><span>Expand details</span></div>
+              <div>
+                <img class="" alt="" src="./public/arrow.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- subscription receipt -->
+      <div class="mobpadding" style="margin-top: 5rem">
+        <div class="center-grid">
+          <div style="border-top: 0.5px solid rgb(202, 202, 202)">
+            <!-- choose your start date -->
+            <div>
+              <div
+                class="container-display-flex"
+                style="padding: 2rem 0rem 1rem 0rem"
+              >
+                <div class="font-medium-bold fs-200">
+                  <span> Start date</span>
+                </div>
+                <div>
+                  <span class="green fs-170"> Choose your start date </span>
+                </div>
+              </div>
+              <!-- info badge -->
+              <div class="">
+                <div class="info-style2 bg-yellow" style="padding: 0.8rem">
+                  <!-- info icon-->
+                  <div class="">
+                    <img src="public/alert-circle.svg" alt="" />
+                  </div>
+                  <!-- text -->
+                  <div class="fs-200" style="padding: 0rem 0.5rem">
+                    <span>Choose your start date to pay.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- input discount code -->
+            <div style="margin: 1rem 0rem" class="mobpadding">
+              <!-- title -->
+              <div class="fs-200 font-medium-bold" style="padding: 0.7rem 0rem">
+                <span>Discount Code</span>
+              </div>
+              <div class="container-display-flex">
+                <div class="w-70">
+                  <!-- input -->
+                  <div class="w-100">
+                    <input
+                      type="text"
+                      placeholder="enter your discount code"
+                      style="padding: 0.4rem"
+                      class="border-bottom w-100"
+                    />
+                  </div>
+                  <div class="" style="padding-top: 0.6rem">
+                    <span class="fs-170 green">Code successfully applied.</span>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    class="rmv-button-style fs-170 bg-lightgrey font-medium-bold"
+                  >
+                    Remove code
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="fs-200">
+              <!-- subtotal -->
+              <div style="padding: 1rem 0rem" class="container-display-flex">
+                <!-- text -->
+                <div class="font-medium-bold">
+                  <span>Subtotal</span>
+                </div>
+                <!-- price -->
+                <div>
+                  <span>₦112,000.00</span>
+                </div>
+              </div>
+              <!-- discount -->
+              <div style="padding: 1rem 0rem" class="container-display-flex">
+                <!-- text -->
+                <div class="font-medium-bold">
+                  <span>Discount applied (25% off)</span>
+                </div>
+                <!-- price -->
+                <div>
+                  <span>- ₦28,000</span>
+                </div>
+              </div>
+              <!-- total -->
+              <div>
+                <div style="padding: 1rem 0rem" class="container-display-flex">
+                  <!-- text -->
+                  <div class="font-medium-bold">
+                    <span>Total</span>
+                  </div>
+                  <!-- price -->
+                  <div>
+                    <span>₦102,000.00</span>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="" style="text-align: center">
+                  <span class="fs-190"
+                    >This amount covers your subscription for the next 4
+                    weeks</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- info badge -->
+            <div class="">
+              <div class="info-style bg-lightgrey" style="padding: 0.8rem">
+                <!-- info icon-->
+                <div class="">
+                  <img src="public/info--circlee.svg" alt="" />
+                </div>
+                <!-- text -->
+                <div class="fs-200" style="padding: 0rem 0.5rem">
+                  <span
+                    >Your subscription amount for subsequent months will be
+                    ₦112,000</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="center-grid" style="margin: 0rem">
+              <button
+                class="bg-green w-70 font1 white font-medium-bold button-style"
+                type="submit" onClick="myFunction()" value="HOME">
+                View Laundry Frequency
+              </button>
+            </div>
+            <div
+              class="center-grid fs-200"
+              style="margin: 0rem; padding: 0.5rem 0rem"
+            >
+              <div>
+                <span>Not what you want?</span>
+              </div>
+              <div class="green">
+                <span>Customise your plan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        window.location.href = "modal1.html";
+      }
+    </script>
+  </body>
+</html>
